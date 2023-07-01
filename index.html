@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>forms and function - Altersdifferenz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="./assets/js/main.js"></script>
+</head>
+<body>
+    <form onsubmit="return false">
+        <section>
+            <label for="ageone">Alter 1:</label>
+            <input type="number" name="ageone" id="ageone">
+            <label for="agetwo">Alter 2:</label>
+            <input type="number" name="agetwo" id="agetwo">
+            <button onclick="calculateAge(event)">berechnen</button>
+        </section>
+        <section class="output">
+            <p>Differenz beträgt</p>
+        </section>
+    </form>
+</body>
+</html>
